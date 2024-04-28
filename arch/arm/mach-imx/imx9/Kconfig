@@ -37,6 +37,11 @@ config TARGET_IMX93_11X11_EVK
 	bool "imx93_11x11_evk"
 	select OF_BOARD_FIXUP
 	select IMX93
+	
+config TARGET_IMX93_HEXABITZ
+	bool "imx93_hexabitz"
+	select OF_BOARD_FIXUP
+	select IMX93
 
 config TARGET_IMX93_9X9_QSB
 	bool "imx93_9x9_qsb"
@@ -65,6 +70,7 @@ endchoice
 source "board/freescale/imx93_evk/Kconfig"
 source "board/freescale/imx93_qsb/Kconfig"
 source "board/freescale/imx95_evk/Kconfig"
+source "board/hexabitz/imx93_hexabitz/Kconfig"
 source "board/toradex/titan-imx95/Kconfig"
 
 endif

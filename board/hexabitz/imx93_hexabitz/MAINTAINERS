@@ -1,0 +1,6 @@
+IMX93_HEXABITZ BOARD
+M:	Issam Sayyaf <issam@hexabitz.com>
+S:	Maintained
+F:	board/hexabitz/imx93_hexabitz/
+F:	include/configs/imx93_hexabitz.h
+F:	configs/imx93_hexabitz_defconfig
